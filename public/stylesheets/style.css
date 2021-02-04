@@ -5,4 +5,68 @@ body {
 a {
   color: #00B7FF; }
 
+body {
+  background: url(../images/cinema.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h2 {
+  font-size: 2em; }
+
+.intro {
+  color: white;
+  margin-left: 55%;
+  margin-top: 6%;
+  font-size: 3.5em; }
+
+.introButton {
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: white;
+  font-size: 1.2rem;
+  color: #a7c5ce;
+  border-radius: 35px; }
+
+.movSection {
+  background-color: white;
+  background-size: cover;
+  padding: 40px; }
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.indMovie {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 80px;
+  list-style: none;
+  align-items: center; }
+
+.indMovie img {
+  margin: 10px 0; }
+
+.movieSec {
+  background-color: white;
+  padding: 100px 50px;
+  display: flex; }
+
+.movieDesc {
+  padding: 5px 20px; }
+
+.movieDesc h3 {
+  font-size: 1.5em; }
+
+.movieDesc h4 {
+  font-size: 1.2em; }
+
+.movieDesc a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: black;
+  color: #a7c5ce;
+  border-radius: 35px; }
+
 /*# sourceMappingURL=style.css.map */

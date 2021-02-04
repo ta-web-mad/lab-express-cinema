@@ -1,0 +1,13 @@
+<section class="movSection">
+    <h2>Ironhack Movies</h2>
+    <P>Click on the movies to check the showtimes!</P>
+    <ul class="movies">
+        {{#each moviesInDatabase}}
+        <div class="indMovie">
+            <li><img src="{{this.image}}" alt="movieImg"></li>
+            <li>{{this.title}}</li>
+            <li><a href="/movie/{{id}}">See more</a></li>
+        </div>
+        {{/each}}
+    </ul>
+</section>
