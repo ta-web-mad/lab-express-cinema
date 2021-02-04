@@ -23,9 +23,37 @@ a {
     }
     a {
       text-decoration: none;
-      background-color: rgb(215, 234, 241);
+      background-color: rgb(229, 243, 243);
       padding: 10px 20px;
       border-radius: 20px;
+      color: rgb(60, 90, 90);
+    }
+  }
+}
+
+.movies-list {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    img {
+      width: 220px;
+    }
+    .movie-info {
+      width: 220px;
+      text-align: center;
+      background-color: rgb(196, 210, 219);
+      padding-bottom: 10px;
+      h1 {
+        font-size: 14px;
+      }
     }
   }
 }

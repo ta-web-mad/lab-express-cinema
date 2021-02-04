@@ -20,8 +20,31 @@ a {
       font-size: 100px; }
     .index-page .index-content a {
       text-decoration: none;
-      background-color: #d7eaf1;
+      background-color: #e5f3f3;
       padding: 10px 20px;
-      border-radius: 20px; }
+      border-radius: 20px;
+      color: #3c5a5a; }
+
+.movies-list {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+  .movies-list .movie-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    align-items: center; }
+    .movies-list .movie-card img {
+      width: 220px; }
+    .movies-list .movie-card .movie-info {
+      width: 220px;
+      text-align: center;
+      background-color: #c4d2db;
+      padding-bottom: 10px; }
+      .movies-list .movie-card .movie-info h1 {
+        font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
