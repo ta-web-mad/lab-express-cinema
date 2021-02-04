@@ -87,7 +87,6 @@ const movies = [
     }
   ];
   
-  // Add here the script that will be run to actually seed the database (feel free to refer to the previous lesson)
   Movie
     .create(movies)
     .then(response => {
