@@ -1,0 +1,25 @@
+<article class="container movieInfo">
+    <div class="row">
+        <div class="col-4">
+            <img src="{{image}}" alt="{{title}} img">
+        </div>
+        <div class="col-8">
+            <a class="movieMargin" href="/movies">Go back</a>
+            <h3 class="movieMargin">{{title}}</h3>
+            <h4 class="movieMargin">Director: <span>{{director}}</span></h4>
+            <h5>Stars</h5>
+            <ul class="movieMargin">
+                {{#each stars}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <p>{{description}}</p>
+            <div class="showtimes">
+                {{#each showtimes}}
+                    <p> {{this}} | </p>
+                {{/each}}
+            </div>
+        </div>
+
+    </div>
+</article>
