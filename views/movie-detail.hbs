@@ -1,19 +1,22 @@
-<div>
+<div class="movie-detail">
     <img src="{{image}}" alt="{{title}}">
-    <div>
+    <div class="movie-detailed-info">
         <a href="/movies">Go back</a>
         <h1>{{title}}</h1>
         <h2>Director: {{director}}</h2>
-        <ul>Stars
+        <ul><strong>Stars:</strong>
             {{#each stars}}
             <li>{{this}}</li>
             {{/each}}
         </ul>
         <p>{{description}}</p>
-        <div>
+        <div class="all-showtimes">
             {{#each showtimes}}
-            {{this}} |
+            <div class="showtime">
+                {{this}}
+            </div>
             {{/each}}
+
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@ body {
   background-size: cover; }
 
 a {
-  color: #00b7ff; }
+  color: #0d4f69; }
 
 .index-page {
   display: flex;
@@ -46,5 +46,30 @@ a {
       padding-bottom: 10px; }
       .movies-list .movie-card .movie-info h1 {
         font-size: 14px; }
+
+.movie-detail {
+  display: flex;
+  max-width: 1200px;
+  margin: auto; }
+  .movie-detail img {
+    width: 700px; }
+  .movie-detail .movie-detailed-info {
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgba(196, 210, 219, 0.3); }
+    .movie-detail .movie-detailed-info ul {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .movie-detail .movie-detailed-info ul li {
+        padding-top: 5px;
+        padding-bottom: 5px; }
+
+.all-showtimes {
+  display: flex; }
+  .all-showtimes .showtime {
+    background-color: #e4e453;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */
