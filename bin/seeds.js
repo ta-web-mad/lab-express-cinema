@@ -97,6 +97,6 @@ const movies = [
 
 // ... your code here
 Movie
-.create(movies)
-.then(console.log('Movies added successfully'))
-.catch(err => console.log('Se ha producido un error:', err))
+    .create(movies)
+    .then(console.log('Movies added successfully'))
+    .catch(err => console.log('Se ha producido un error:', err))
