@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+<body class="movies-body" >
+    <h1>Ironhack Cinema</h1>
+    <h3>Click on the movie to check the showtimes!</h3>
+
+    {{#each movies}}
+    <figure><img src="{{image}}" alt="{{title}}"></figure>
+    <p>Título: <strong>{{title}}</strong></p>
+    <a href="/movies/{{id}}">See More</a>
+    {{/each}}
+
+</body>
+</html>
