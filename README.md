@@ -42,13 +42,13 @@ Now you are ready to start. 🚀
 
 First, we need to seed our database. Below you will find an array of objects with info for 8 movies. You should create two files:
 
-- Create a folder `models` and in it add the `Movie.model.js` file for the Movie model;
-- Create `seeds.js` file inside the `bin` folder and write the code necessary to seed the database.
+- Create a folder `models` and in it add the `Movie.model.js` file for the Movie model.
+- Complete the `seeds.js` file inside the `bin` folder: write the code necessary to seed the database.
 
 Below find the seeds you should add to the `bin/seeds.js`. Based on the objects provided in the seeds, create a `Movie` model in the `models/Movie.model.js` file.
 
 ```javascript
-// To insert in "bin/seeds.js"
+// Data to insert in "bin/seeds.js"
 
 const movies = [
   {
