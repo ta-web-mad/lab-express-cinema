@@ -1,0 +1,14 @@
+<div class="container">
+    <a href="/" class="home-link">Go Home</a>
+    <hr>
+    <div class="row movies-list">
+        {{#each allMoviesfromDB}}
+        {{!-- {{> movieCard}} --}}
+        <div class="col-md-4 movie-card">
+            <img src="{{image}}" alt="{{title}}-poster">
+            <h4>{{title}}</h4>
+            <a href="/movie/{{id}}">See more</a>
+        </div>
+        {{/each}}
+    </div>
+</div>
